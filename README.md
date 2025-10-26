@@ -9,8 +9,6 @@ Capture any area of your screen and get instant text extraction and visual descr
 - **Screen Area Capture**: A simple, intuitive tool to select any portion of your screen.
 - **Local AI Processing**: Leverages [Ollama](httpsa://ollama.com/) to run powerful multimodal models (like LLaVA or Qwen-VL) locally on your machine. Your data never leaves your computer.
 - **Two-Pass Analysis**:
-  1.  **Text Extraction**: A dedicated first pass extracts all text from the image with high accuracy, acting like a powerful OCR.
-  2.  **Visual Description**: A second pass analyzes the visual elements—layout, colors, and objects—without repeating the text.
 - **Responsive UI**: Built with Kivy, the user interface remains responsive while the AI processes the image in the background.
 - **Side-by-Side View**: Immediately compare the original captured image with the extracted text and the AI-generated visual description.
 - **Configurable**: Easily change the Ollama endpoint, model, and other settings via a simple `config.json` file.
