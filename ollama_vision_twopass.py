@@ -97,9 +97,9 @@ def query_ollama_vision_twopass(image_path, progress_callback=None):
 
         text_prompt = (
             "If you find text in this image, please read the entire text carefully, neatly formatted. "
-            "Don't miss out any words. Don't hallucinate, or dont rely on your memory about the subject in the text. "
+            "Don't miss out any words. Don't rely on your memory about the subject in the text. "
             "Stay grounded to the text in the image."
-            "By text I mean all text, typed, hand writtend, photographed, painted, drawn and all text variations"
+            "By text I mean all text, typed, hand written, photographed, painted, drawn and all text variations"
             "Don't provide any explanations of what you see,only provide the extracted the text. "
             "Your job is to extract text just similar to a good OCR app")
 
