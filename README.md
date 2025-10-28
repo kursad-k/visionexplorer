@@ -1,8 +1,8 @@
-# ScreenExplorer
+# Vision Explorer
 
 Capture any area of your screen and get instant text extraction and visual descriptions using local, privacy-focused multimodal language models with Ollama.
 
-![ScreenExplorer Screenshot](sample.png)
+![Vision Explorer Screenshot](sample.png)
 
 ## Features
 
@@ -52,7 +52,7 @@ ollama pull qwen2.5vl:3b
 ## Usage
 
 1.  Ensure your Ollama application is running in the background.
-2.  Run the ScreenExplorer application:
+2.  Run the Vision Explorer application:
     ```sh
     python main.py
     ```
